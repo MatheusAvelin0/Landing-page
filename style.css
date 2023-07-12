@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+    transition: 0.3s all;
+}
+h1{
+    font-weight: 200;
+}
+#inscreva-se-btn{
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se-btn:hover{
+background-color: red;
+color: white;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    
+}
+
+span{
+    color: brown;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+}
+form [type="submit"]:hover{
+   cursor: pointer;
+
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+font-size: 15px;
+    border: none;
+}
+
+#fotoc1{
+    width: 280px;
+    height: 260px;
+    margin: 30px solid ;
+}
+
+.card{
+    display: inline-block;
+    margin: 35px;
+    padding: 8px;
+    margin-top: 55px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+   
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+   
+  .image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+  }
+
+ .carrinho{
+    background-color:#c74545;
+	border-radius:36px;
+	border:4px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:'Poppins', sans-serif;;
+	font-size:15px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #000000;
+ }
+
+ .carrinho:hover {
+	background-color:#ffffff;
+}
+.carrinho:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
